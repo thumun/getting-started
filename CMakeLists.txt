@@ -1,4 +1,4 @@
-project(CS312-GettingStarted)
+project(CS313-GettingStarted)
 cmake_minimum_required(VERSION 3.0)
 
 if (WIN32) # Includes win64 platforms
