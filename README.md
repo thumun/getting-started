@@ -51,14 +51,16 @@ From git bash, run the following commands
 
 * `mkdir build`
 * `cd build`
-* `cmake -G "Visual Studio 16 2019" ..`
+* `cmake ..`
+* `start CS313-GettingStarted.sln`
+
+NOTE: If `cmake ..` results in an error, try `cmake -G "Visual Studio 17 2022" ..`
 
 Running these commands in git bash [should look something like this](build-win.txt).
 
-The above commands will create Visual Studio project files inside the build folder. It is important to create the subdirectory `build`, to 
-keep our repository clean of generated files. 
+The above commands will create Visual Studio project files inside the build folder. It is important to create the subdirectory `build`, to keep our repository clean of generated files. 
 
-Double click on `CS312-GettingStarted.sln` to open the project. 
+You can also double click on `CS313-GettingStarted.sln` to open the project. 
 If you don't know where to start with visual studio, or need a refresher, [this video shows how to build, run, and debug with Visual Studio](https://youtu.be/hZ_ZZy0j7Vk)
 
 # Build on macOS
